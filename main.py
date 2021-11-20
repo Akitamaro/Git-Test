@@ -1,4 +1,5 @@
-
+# Иморты
+from variables import a,b,c 
 # Функции 
 def f(N):
     return N+2
@@ -12,3 +13,13 @@ a = f'{N} + 2 = {x}'
 f = open('file.txt', 'a')
 f.write(a+'\n')
 f.close()
+
+
+choise = input('Y, N? ~$ ')
+
+if choise == 'Y':
+    print(b+c)
+else:
+    print("Fuck U JONHY!")
+    
+
