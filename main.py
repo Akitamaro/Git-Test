@@ -17,9 +17,4 @@ f.close()
 
 choise = input('Y, N? ~$ ')
 
-if choise == 'Y':
-    print(b+c)
-else:
-    print("Fuck U JONHY!")
-    
 
